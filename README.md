@@ -111,3 +111,23 @@ MIT License — feel free to use this project for learning and portfolios!
 
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:8000
+
+## 👥 Team Work Division
+
+| Member | Role | Responsibilities |
+|---|---|---|
+| Member 1 | Frontend Developer | Built the Next.js frontend, responsive UI, homepage, product pages, cart page, about/contact pages, and deployed the frontend to Vercel. |
+| Member 2 | Backend & AI Developer | Built the FastAPI backend, chatbot API, OpenRouter integration, Qdrant vector search, Neon chat history, and local backend testing. |
+
+## 🚧 Deployment Status
+
+The frontend is deployed on Vercel and is publicly accessible.
+
+The backend was implemented and tested locally, but it is not deployed publicly yet because most free backend hosting platforms require billing information. The backend can be run locally using the instructions below.
+
+### Local Backend Run Command
+
+
+cd backend
+venv\Scripts\activate
+uvicorn main:app --reload

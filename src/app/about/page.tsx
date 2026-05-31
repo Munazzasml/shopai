@@ -77,7 +77,7 @@ export default function AboutPage() {
               <div className="w-24 h-24 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-2xl font-bold text-blue-600">M1</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900">Team Member 1</h3>
+              <h3 className="text-xl font-bold text-gray-900">Maryam</h3>
               <p className="text-blue-600 text-sm font-medium mb-4">Frontend Developer</p>
               <p className="text-gray-500 text-sm">Focused on building the Next.js UI, managing state, and creating responsive layouts with Tailwind CSS.</p>
             </div>
@@ -87,7 +87,7 @@ export default function AboutPage() {
               <div className="w-24 h-24 bg-purple-100 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-2xl font-bold text-purple-600">M2</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900">Team Member 2</h3>
+              <h3 className="text-xl font-bold text-gray-900">Munazza Ismail</h3>
               <p className="text-purple-600 text-sm font-medium mb-4">Backend & AI Developer</p>
               <p className="text-gray-500 text-sm">Focused on the FastAPI backend, OpenAI integration, and configuring the Qdrant vector database.</p>
             </div>
