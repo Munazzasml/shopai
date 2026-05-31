@@ -33,7 +33,7 @@ export default function RootLayout({
           </main>
           
           <Footer />
-          <ChatWidget />
+          {/* <ChatWidget /> */}
         </CartProvider>
       </body>
     </html>
