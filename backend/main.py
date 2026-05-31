@@ -5,12 +5,12 @@ from services.history import init_db
 
 app = FastAPI(title="ShopAI Backend")
 
-# Allow requests from your Next.js frontend
+# UPDATED: Allow requests from localhost AND Vercel
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",
-        "https://your-vercel-domain.vercel.app" # Update this later!
+        "http://localhost:3000",          # For local development
+        "https://*.vercel.app",            # Allows ALL Vercel preview URLs
     ],
     allow_credentials=True,
     allow_methods=["*"],
